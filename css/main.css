@@ -83,6 +83,8 @@ span {
 b {
 	color: #ec1e79;
 }
+.main__content {
+}
 
 .desc__image	{
 	background-repeat: no-repeat;
@@ -101,17 +103,23 @@ b {
 	font-family: "Gotham Pro Light";
 	float: left;
 	font-size: 18px;
+	width: 700px;
+}
+.desc__top-text {
+	width: 700px;
 }
 .desc__list	{
 	margin: 0px;
+	
 }
 .desc__item {
 	padding-bottom: 10px;
 }
 .botom__item {
 	margin: 0px;
+	width: 700px;
 }
-.bottom_bgr {
+.bottom__bgr {
 	background: #27273e;
 	float: left;
 	width: 700px;
@@ -121,7 +129,12 @@ b {
 .bottom__text	{
 	font-family: "Gotham Pro Light";
 	font-size: 18px;
-	color: color: #ec1e79;
+	color: #fff;
 	padding-left: 30px;
 	margin-top: 20px;
+}
+.partner__text {
+	font-family: "Gotham Pro ";
+	font-size: 49px;
+	color: #221f1f;
 }
