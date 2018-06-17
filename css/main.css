@@ -52,36 +52,91 @@
 	color:#769ccd;
 	text-align: right;
 }
-.sidebar {
-	margin-top: 50px;
-	width: 150px;
+
+.nav__sidebar {
 	float: left;
+	margin-top: 25px;
 }
-.sidebar__list {
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-}
-.sidebar_link {
+.sidebar__link {
 	text-decoration: none;
-	background-repeat: no-repeat;
+}
+.sidebar__list	{
+	list-style: none;
+	padding-left: 20px;
+}
+.sidebar__item {
+	margin-bottom: 20px;
+}
+.sidebar__icon {
+	width: 17px;
+	height: 15px;
 	display: inline-block;
-	padding-left: 25px;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.sidebar__icon-main {
+	background: url(../img/icons/main.png) no-repeat;
+	width: 17px;
+	height: 15px; 
+}
+.sidebar__icon-wallet {
+	background: url(../img/icons/team.png);
+	width: 19px;
+	height: 16px;
+}
+.sidebar__icon-star {
+	background: url(../img/icons/reviews.png);
+	width: 21px;
+	height: 19px;
 }
 
+.sidebar__text {
+	display: inline-block;
+	vertical-align: middle;
+	width: 68px;
+	height: 9px;
+	color: #221f1f;
+	font-family: "Gotham Pro Light";
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+.sidebar__link:hover 	.sidebar__text {
+	color: #ec1e79;
+}
+.sidebar__link-main:hover 	.sidebar__icon {
+	background: url(../img/icons/main_hover.png);
+	width: 17px;
+	height: 15px;
+}
+.sidebar__link-wallet:hover 	.sidebar__icon {
+	background: url(../img/icons/team_hover.png);
+	width: 19px;
+	height: 16px;
+}
+.sidebar__link-star:hover 	.sidebar__icon {
+	background: url(../img/icons/reviews_hover.png);
+	width: 21px;
+	height: 19px;
+}
 body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans";
 }
-li {
+.desc__list li {
 	color: #ec1e79;
 }
-span {
+.desc__item-text {
 	color:#221f1f;
+	line-height: 1.5;
 }
-b {
-	color: #ec1e79;
+.text__centre {
+	color: black;
+	font-family: "Gotham Pro Light";
+	position: relative;
+
 }
 .main__content {
 }
@@ -107,6 +162,7 @@ b {
 }
 .desc__top-text {
 	width: 700px;
+	line-height: 1.5;
 }
 .desc__list	{
 	margin: 0px;
@@ -118,6 +174,7 @@ b {
 .botom__item {
 	margin: 0px;
 	width: 700px;
+	line-height: 1.5;
 }
 .bottom__bgr {
 	background: #27273e;
@@ -132,9 +189,5 @@ b {
 	color: #fff;
 	padding-left: 30px;
 	margin-top: 20px;
-}
-.partner__text {
-	font-family: "Gotham Pro ";
-	font-size: 49px;
-	color: #221f1f;
+	line-height: 1.5;
 }
